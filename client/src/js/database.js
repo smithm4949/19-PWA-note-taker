@@ -14,6 +14,7 @@ const initdb = async () =>
 
 export const putDb = async (content) => {
   console.log('PUTting to the database');
+  console.log(`item to put: ${content}`)
 
   const jateDb = await openDB('jate', 1);
 
